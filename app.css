@@ -71,6 +71,38 @@
 	margin: 0 auto;
   }
   
+
+/* TODO */
+.addtodo__container
+{
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	flex-direction: column;
+}
+
+.addtodo__container input,
+.addtodo__container textarea
+{
+	width: 100%;
+	padding-left: 8px;
+	padding-block: .5rem;
+	resize: none;
+	outline: none;
+}
+
+.date-div 
+{
+	width: 100%;
+	display: flex;
+	gap: 0.2rem;
+	flex-direction: column;
+}
+.date-div input {
+	width: 100%;
+}
+/* TODO */
+
   /* STYLES */
   nav {
 	background-color: #1a1a1a;
